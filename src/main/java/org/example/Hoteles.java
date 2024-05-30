@@ -8,10 +8,8 @@ public class Hoteles {
     boolean piscina;
 
     //constructores
-
     public Hoteles(){
     }
-
     public Hoteles(String nombre, String direccion, int numero_habitaciones, double precio_noche, boolean piscina) {
         this.nombre = nombre;
         this.direccion = direccion;

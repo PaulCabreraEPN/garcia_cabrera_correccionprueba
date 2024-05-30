@@ -50,5 +50,6 @@ public class Hoteles {
 
     public void setPrecio_noche(double precio_noche) {
         this.precio_noche = precio_noche;
+
     }
 }

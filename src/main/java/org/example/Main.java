@@ -17,5 +17,13 @@ public class Main {
         Hotel1.setPiscina(true);
         Hotel1.imprimir_datos_hotel();
 
+        Hoteles Hotel2=new Hoteles();
+        Hotel2.setNombre("Sirena");
+        Hotel2.setDireccion("La Magdalena");
+        Hotel2.setNumero_habitaciones(50);
+        Hotel2.setPrecio_noche(18.90);
+        Hotel2.setPiscina(false);
+        Hotel2.imprimir_datos_hotel();
+
     };
 }
